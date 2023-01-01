@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    grid-gap:10px;
+    background-color:pink;
+    place-content: center;
+
+}
+.item0,.item7,.item8,.item15{
+    background: blue;
+}
+.item1,.item6,.item9,.item14{
+    background: red;
+}
+.item2,.item5,.item10,.item13{
+    background: green;
+}
+.item3,.item4,.item11,.item12{
+    background: yellow;
+}
+
