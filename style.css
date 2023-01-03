@@ -1,11 +1,17 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+
 .container{
     display: grid;
-    grid-template-columns: repeat(16, 30px);
-    grid-template-rows: repeat(16, 30px);
-    grid-gap:1px;
+    width: 600px;
+    height: 600px;
     background-color:pink;
     place-content: center;
 
+    
 }
 [class*="item"]{
     background: grey;
